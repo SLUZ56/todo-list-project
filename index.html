@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App - OOP</title>
+    <link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+   <div id="main-container">
+     <div id="add-container">
+        <h2>Adicione suas tarefas:</h2>
+        <form action="">
+            <input type="text" name="task" id="task" placeholder="O que você tem para fazer?">
+            <button type="submit" id="add"><i class="fa fa-plus"></i></button>
+        </form>
+     </div>
+     <div id="tasks-container">
+        <h2>Veja suas tarefas:</h2>
+        <!-- TEMPLATE -->
+        <div class="task hide">
+            <i class="fa fa-check"></i>
+            <span class="task-title">Título da tarefa</span>
+            <i class="fa fa-trash"></i>
+        </div>
+        <!--  FIM TEMPLATE -->
+        <p id="empty-tasks">Não há tarefas cadastradas</p>
+     </div>
+   </div>
+</body>
+</html>
